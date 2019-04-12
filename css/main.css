@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    border: 0 none;
+    outline: 0 none;
+}
+
+.main {
+    width: 320px;
+    height: 568px;
+    margin: 0 auto;
+    background: url("../images/bg-begin.png");
+    position: relative;
+}
+.main > input {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background: #c4c9ca;
+    position: absolute;
+    left: 50%;
+    margin-left: -76px;
+    bottom: 80px;
+    cursor: pointer;
+}
+#end {
+    width: 80%;
+    height: 300px;
+    margin: 100px auto;
+    border: 1px solid #000;
+    background-color: #c4c9ca;
+    line-height: 300px;
+    text-align: center;
+    display: none;
+    position: relative;
+    z-index: 99;
+}
